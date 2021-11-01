@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    
+
+}
+.navbar{
+    display: flex;
+    background: rgb(250, 219, 80);
+    justify-content: space-around;
+    align-items: center;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+	padding:0px 5%;
+    height:60px;
+    
+}
+.active{
+    /* background: orange; */
+    border-bottom:3px solid orange;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    margin:30px;
+	font-family:myriad pro regular;
+	color:#505050;
+	font-size: 15px;
+	font-weight:800;
+    
+}
+.navbar .logo p{
+    font-family: 'Permanent Marker', cursive;
+    color:#000000;
+    font-weight:bold;
+	font-size: 25px;
+}
+.navbar .logo p a{
+    text-decoration: none;
+    color: black;
+}
+section{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+
+}
+.text-banner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+    
+}
+.text-banner .text h1{
+    font-weight: 600;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+section .text-banner .center .text{
+    padding: 50px;
+    background-image: url(img/istockphoto-1138387358-170667a-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-banner .text h1 span{
+    color: rgb(3, 3, 3);
+}
+.text-banner .text h4{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.text-banner p{
+    font-style: 17px;
+    color: rgb(66, 66, 66);
+
+}
+.text-banner button{
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    background: rgb(22, 21, 18);
+}
+section .text-banner .center{
+    width: 49%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner{
+    width: 49%;
+    padding-top: 3rem;
+}
+.brand h2{
+    text-align: center;
+    font-family:'Nunito', sans-serif;
+    font-size: 2rem;
+    line-height: 1.8;
+}
+.brand h2 span{
+    background: orange;
+    border-radius: 10px;
+    padding: 2px 15px;
+    font-weight:bold;
+}
+.brand-name{
+    display: flex;
+    justify-content: center;
+}
+.brand-name .box{
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+}
+
+.category h2{
+    text-align: center;
+    font-family:'Nunito', sans-serif;
+    font-size: 2rem;
+    line-height: 1.8;
+    margin-top: 60px;
+}
+.category h2 span{
+    background: orange;
+    border-radius: 10px;
+    padding: 2px 15px;
+    font-weight:bold;
+}
+.category h3{
+    font-family:'Nunito', sans-serif;
+    font-size: 1.5rem;
+    padding:10px 0 0 55px;
+    font-weight: bold;
+
+}
+.cart-clothes{
+    display: grid;
+    padding: 2rem 4%;
+    text-align: center;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+}
+.cart-clothes .clothe .fa{
+    display: block;
+    display: flex;
+    justify-content: start;
+    margin-top: 0px;
+   
+}
+.cart-clothes .clothe .item {
+    display: flex;
+    justify-content: space-between;
+}
+.cart-clothes .clothe .item .new{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.cart-clothes .clothe{
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    padding: 2rem ;
+    text-align: center;
+}
+footer p{
+	font-family: calibri;
+}
+footer p a:nth-child(1){
+    font-family: 'Permanent Marker', cursive;
+    text-decoration: none;
+	font-size: 30px;
+	font-weight:bold;
+	color:#646464;
+	line-height:10px;
+	margin: 70px 0 0 0;
+}
+footer p:nth-child(2){
+	font-size: 16px;
+	color:#7e7d7d;
+	width:600px;
+	text-align: center;
+}
+footer{
+	height:260px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	background: rgb(15, 13, 1);
+}
+.social-icons a{
+	width:40px;
+	height:40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color:#e6e3e3;
+	margin:20px 10px;
+	border-radius:50%;
+	margin-bottom: 90px;
+    text-decoration: none;
+}
+.social-icons{
+	display: flex;
+
+}
+.social-icons i,.social i{
+	color:#000000;
+}
+.social-icons a:hover{
+	background-color:#000000;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+	transition:all ease 0.5s;
+}
+.social-icons a:hover i,
+.social a:hover i{
+	color: rgb(250, 219, 80);
+	transition:all ease 0.5s;
+}
+
+.copyright{
+	color:#565555;
+	font-size: 15px;
+	position: absolute;
+	left:50%;
+	bottom:30px;
+	transform: translateX(-50%);
+}
+.btn button{
+    padding: 13px 20px;
+    margin: 10px 0 40px 53px;
+    border: none;
+    cursor: pointer;
+    color: black;
+    border-radius: 5px;
+    background: orange;
+    font-weight: bold;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+}
+
+/* contact */
+
+.contener{
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-container{
+    width: 500px;
+    padding: 10px;
+    background: rgb(250, 219, 80);
+    border-radius: 10px;
+    opacity: 0.8;
+}
+.form-group{
+    padding: 10px;
+
+}
+.form-control{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #aaa;
+}
+.form-control:focus{
+    border-bottom: 3px solid orange;
+}
+.title h1{
+    text-align: center;
+}
+.btn-center{
+    text-align: center;
+}
+button{
+    padding: 12px 40px;
+    border: none;
+    font-style: 17px;
+    text-transform: capitalize;
+	background: orange;
+    font-weight: bold;
+    border-radius: 5px;
+}
